@@ -35,6 +35,7 @@ class Luta:
         if(not( isinstance(lutador1,Lutador) and isinstance(lutador2,Lutador))):
             print("Atributos da classe Luta devem pertencer a classe Lutador")
             return None
+        
         diferncaPeso = abs(lutador1.peso - lutador2.peso)
         if( diferncaPeso > 6 ):
             print("Lutadores não podem ter pesos muito diferentes")
